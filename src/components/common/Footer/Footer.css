@@ -1,0 +1,32 @@
+.main-footer {
+  color: rgb(88, 88, 88);
+  background-color: #c0c0c0;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  margin-bottom: 3vh;
+}
+
+.col h4 {
+  text-transform: uppercase;
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+.list-unstyled {
+  font-size: medium;
+  font-weight: 200;
+}
+.list-unstyled li {
+  list-style-type: none;
+}
+.col-sm {
+  text-align: center;
+  margin: 0.5rem 0;
+}
