@@ -42,7 +42,7 @@ export default function ContactoForm() {
             label="Mensaje"
             name="message"
             type="text"
-            multiline="true"
+            multiline
             rowsMax={4}
             value={values.message}
             onChange={handleInputChange}
